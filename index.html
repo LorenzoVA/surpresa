@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presente Confidencial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="prompt1" class="prompt-container">
+        <h2>Esse é um presente confidencial e exclusivo para Lorena Ribeiro, você é ela e deseja abrir?</h2>
+        <div class="button-container">
+            <button id="sim1">Sim</button>
+            <button id="nao1">Não</button>
+        </div>
+    </div>
+
+    <div id="prompt2" class="prompt-container" style="display: none;">
+        <h2>Você realmente é a Lorena Ribeiro ou é uma impostora? 🧐</h2>
+        <div class="button-container">
+            <button id="sim2">Sim</button>
+            <button id="nao2">Não</button>
+        </div>
+    </div>
+
+    <div id="prompt3" class="prompt-container" style="display: none;">
+        <h2>ENTÃO SAIA DAQUI 🤬</h2>
+    </div>
+
+    <div id="prompt4" class="prompt-container" style="display: none;">
+        <div class="page-indicator">1/27 páginas</div>
+        <h2>Você não me convenceu, PREENCHA ESSE FORMULÁRIO DE 27 PÁGINAS!</h2>
+        <form>
+            <div class="form-group">
+                <label for="firstName">Primeiro Nome:</label>
+                <input type="text" id="firstName" name="firstName">
+            </div>
+
+            <div class="form-group">
+                <label for="secondName">Segundo Nome:</label>
+                <input type="text" id="secondName" name="secondName">
+            </div>
+
+            <div class="form-group">
+                <label for="age">Idade:</label>
+                <input type="text" id="age" name="age">
+            </div>
+
+            <div class="form-group">
+                <label for="bloodType">Tipo Sanguíneo:</label>
+                <input type="text" id="bloodType" name="bloodType">
+            </div>
+
+            <div class="form-group">
+                <label for="beautyLevel">Nível de Beleza (0 a 10):</label>
+                <input type="text" id="beautyLevel" name="beautyLevel">
+            </div>
+
+            <div class="button-container">
+                <button type="button" id="nextPage1">Próxima Página</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="prompt5" class="prompt-container" style="display: none;">
+        <div class="page-indicator">2/27 páginas</div>
+        <h2>AGORA PREENCHA MAIS ESSE!</h2>
+        <form>
+            <div class="form-group">
+                <label for="nomeCompleto">Nome Completo:</label>
+                <input type="text" id="nomeCompleto" name="nomeCompleto">
+            </div>
+
+            <div class="form-group">
+                <label for="nomeNamorado">Nome do seu namorado:</label>
+                <input type="text" id="nomeNamorado" name="nomeNamorado">
+            </div>
+
+            <div class="form-group">
+                <label for="idadeMinha">Idade dele:</label>
+                <input type="text" id="idadeMinha" name="idadeMinha">
+            </div>
+
+            <div class="form-group">
+                <label for="inveja">Você é invejosa:</label>
+                <input type="text" id="inveja" name="inveja">
+            </div>
+
+
+            <div class="button-container">
+                <button type="button" id="nextPage2">Próxima Página</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="prompt6" class="prompt-container" style="display: none;">
+        <h2 id="promptTitle">Te Amo Meu Amor 💖</h2>
+        <div class="content-container">
+            <div class="text-left">
+                <p>Olá meu amore, era brincadeira, não tinha 27 páginas, você é uma das melhores coisas que já aconteceu pra mim, cada segundo com você torna minha vida mais especial, todos nossos momentos, viagens, passeios estão guardados em um lugar bem especial no meu coração.
+                </p>
+            </div>
+            <div class="image-center">
+                <img id="selectedImage" src="./foto.jpg" alt="Imagem do meio">
+            </div>
+            <div class="text-right">
+                <p>Obrigado por fazer parte da minha vida, você meche com o meu coração de uma maneira que eu nunca tinha sentido antes, te amo muito, beijinhos do seu namorado 😘</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
